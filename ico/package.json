@@ -1,0 +1,26 @@
+{
+  "name": "ico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.3",
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "fs": "0.0.1-security",
+    "hardhat": "^2.7.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-truffle5": "^2.0.2",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "web3": "^1.6.1"
+  }
+}
